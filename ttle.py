@@ -40,7 +40,7 @@ DEFAULT_SETTINGS = {
 
 class ToontownLevelEditor(ShowBase):
     notify = directNotify.newCategory("Open Level Editor")
-    APP_VERSION = open('ver', 'r').read()
+    APP_VERSION = "1.1.15_01"
 
     def __init__(self):
 
